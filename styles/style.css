@@ -7,21 +7,115 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  border: 2px solid #c8c8c8;
 }
 
+.border {
+  border: 4px solid red;
+}
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  width: 100%;
   /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: -1;
+  border: 2px solid #c8c8c8;
 }
 
+.logo {
+  width: 183px;
+  height: 32px;
+  background-image: url(../images/logo_place_header.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  .logo_place_header {
+    position: absolute;
+    top: 30px;
+    left: 64px;
+    z-index: 2;
+  }
+  .header__title {
+    font-size: 102px;
+    font-weight: bold;
+    width: 730px;
+    margin-left: 64px;
+    z-index: 3;
+  }
+  .header__subtitle {
+    width: 388px;
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+    font-size: 18px;
+    z-index: 2;
+  }
+  .link {
+    color: #2f80ed;
+    text-decoration: none;
+  }
+  .header__main-illustration {
+    width: 765px;
+    height: 608px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+  }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+    top: 64px;
+    right: 0;
+    z-index: 0;
 }
-
+.description {
+  display: flex;
+  align-items: center;
+  border: 2px solid #c8c8c8;
+  margin: 100px 0;
+}
+.two-columns {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content:space-between;
+  padding: 0;
+}
+.two-columns__brief {
+  width: 175px;
+  font-weight: normal;
+  font-size:  18px;
+  color: #2f80ed;
+  margin: 0;
+}
+.two-columns__main-text {
+  display: flex;
+  flex-direction:column;
+  width: 80%;
+  min-width: 784px;
+  font-size: 24px;
+}
+.two-columns__paragraph {
+  display: flex;
+  min-width: 784px;
+  margin: 0 0 30px;
+}
+.two-columns__span-accent {
+  font-weight: bold;
+}
+.two-columns__paragraph:last-of-type{
+  margin-bottom: 0;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
