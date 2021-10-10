@@ -5,8 +5,7 @@
     <title>Научиться учиться</title>
     <meta name="author" content="Бородкина Виктория" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
     <div class="page">
@@ -21,7 +20,7 @@
           >
         </p>
         <img
-          src="images/header-image.png"
+          src="./images/header-image.png"
           class="header__main-illustration"
           alt="Картинка в шапке"
         />
@@ -58,7 +57,7 @@
           <div class="cards">
             <div class="cards__item">
               <img
-                src="images/cards-attention.png"
+                src="./images/cards-attention.png"
                 class="cards__image"
                 alt="картинка книга в руках"
               />
@@ -70,7 +69,7 @@
             </div>
             <div class="cards__item">
               <img
-                src="images/cards-recall.png"
+                src="./images/cards-recall.png"
                 class="cards__image"
                 alt="картинка статуи"
               />
@@ -82,7 +81,7 @@
             </div>
             <div class="cards__item">
               <img
-                src="images/cards-interliving.png"
+                src="./images/cards-interliving.png"
                 class="cards__image"
                 alt="картинка с плошадью"
               />
@@ -94,7 +93,7 @@
             </div>
             <div class="cards__item">
               <img
-                src="images/cards-question.png"
+                src="./images/cards-question.png"
                 class="cards__image"
                 alt="Картинка комнаты"
               />
@@ -106,7 +105,7 @@
             </div>
             <div class="cards__item">
               <img
-                src="images/cards-competence.png"
+                src="./images/cards-competence.png"
                 class="cards__image"
                 alt="Картинка комнаты"
               />
@@ -122,8 +121,20 @@
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
-            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </section>
         <section class="oakley">
@@ -146,7 +157,6 @@
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
-
           <a href="#" target="_blank" class="feynman__link"
             >Подробнее &#8594;</a
           >
@@ -201,21 +211,28 @@
         </section>
         <section class="khan">
           <div class="khan__container">
-          <p class="khan__author">Салман Хан</p>
-          <h2 class="khan__title">
-            Весь мир — школа
-          </h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-        <h3 class="khan__quote-author">Джордж Лукас</h3>
-        <p class="khan__quote-author-subline">
-          Кинорежиссер, продюсер
-        </p>
-        <div class="khan__book-container">
-        <img src="/images/khan-book.jpg" class="khan__book-pic" alt="обложка книги">
-        <a href="#" target="_blank" class="khan__buy-link"
-            >Купить книгу &#8594;</a>
+            <p class="khan__author">Салман Хан</p>
+            <h2 class="khan__title">Весь мир — школа</h2>
+            <p class="khan__quote">
+              Страсть и новаторство Сала Хана меняют процесс обучения миллионов
+              студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
+              всем, кто занимается образованием — так учащиеся повсюду смогут
+              получить навыки и знания, которые приносят успех в школе, карьере
+              и жизни.
+            </p>
+            <h3 class="khan__quote-author">Джордж Лукас</h3>
+            <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+            <div class="khan__book-container">
+              <img
+                src="./images/khan-book.jpg"
+                class="khan__book-pic"
+                alt="обложка книги"
+              />
+              <a href="#" target="_blank" class="khan__buy-link"
+                >Купить книгу &#8594;</a
+              >
+            </div>
           </div>
-        </div>
         </section>
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">
@@ -275,7 +292,35 @@
               </p>
             </div>
           </div>
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
+        </section>
+        <section class="resources">
+          <h2 class="section-title">Полезные ресурсы</h2>
+          <p class="section-subtitle">
+            Больше материалов о техниках и лайфхаках обучения
+          </p>
+          <div class="resources__logo-zone">
+            <img
+              class="resources__logo"
+              src="./images/resources-arzamas.svg"
+              alt="логотип арзамас"
+            />
+            <img
+              class="resources__logo"
+              src="./images/resources-n1.svg"
+              alt="логотип н+1"
+            />
+            <img
+              class="resources__logo"
+              src="./images/resources-strelka.svg"
+              alt="логотип стрелка"
+            />
+            <img
+              class="resources__logo"
+              src="./images/resources-polka.svg"
+              alt="логотип полка"
+            />
+          </div>
         </section>
       </main>
       <footer class="footer">
@@ -296,7 +341,7 @@
             <h3 class="footer__column-heading">Соцсети</h3>
             <ul class="footer__column-links">
               <li>
-                <a href="#" class="footer__column-link"
+                <a href="#" class="footer__column-link" lang="en"
                   ><img
                     src="images/facebook_color_white.svg"
                     class="footer__social-icon"
@@ -314,7 +359,7 @@
                 >
               </li>
               <li>
-                <a href="#" class="footer__column-link"
+                <a href="#" class="footer__column-link" lang="en"
                   ><img
                     src="images/instagram_color_white.svg"
                     class="footer__social-icon"
