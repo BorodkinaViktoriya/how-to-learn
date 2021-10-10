@@ -2,7 +2,7 @@
   color: #2f80ed;
   text-decoration: none;
   z-index: 3;
-  transition: opascity 1s ;
+  transition: opascity 1s;
 }
 
 .header__link:hover {
