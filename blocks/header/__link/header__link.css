@@ -2,6 +2,8 @@
   color: #2f80ed;
   text-decoration: none;
   z-index: 3;
+  -webkit-transition: opascity 1s;
+  -o-transition: opascity 1s;
   transition: opascity 1s;
 }
 

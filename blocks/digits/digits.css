@@ -1,4 +1,5 @@
 .digits {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 100px;
 }
