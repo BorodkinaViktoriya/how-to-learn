@@ -4,6 +4,8 @@
   line-height: 42px;
   text-decoration: none;
   color: #2f80ed;
+  -webkit-transition: opascity 1s;
+  -o-transition: opascity 1s;
   transition: opascity 1s;
 }
 

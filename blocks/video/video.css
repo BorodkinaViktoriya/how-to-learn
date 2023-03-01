@@ -1,4 +1,5 @@
 .video {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 100px;
   height: 540px;

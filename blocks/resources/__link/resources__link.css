@@ -1,6 +1,8 @@
 .resources__link {
   text-decoration: none;
   margin: 0;
+  -webkit-transition: opascity 1s;
+  -o-transition: opascity 1s;
   transition: opascity 1s;
 }
 

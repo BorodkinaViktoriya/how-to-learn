@@ -1,4 +1,5 @@
 .resources {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 100px 0 217px;
 }
